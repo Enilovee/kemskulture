@@ -5,7 +5,7 @@ margin: 0;
   font-family: "lato", serif;
   font-weight: 400;
   font-style: normal;
-  overflow-x: hidden;
+  overflow: hidden;
   color: rgb(87, 35, 1);
   background-color: ivory;
 }
