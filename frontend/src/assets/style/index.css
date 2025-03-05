@@ -485,8 +485,8 @@ color: #462b03;
 @media only screen and (max-width: 767px) {
   /* For mobile phones: */
   main{
-    overflow-x: hidden;
-    max-width: 100%;
+    overflow: hidden;
+    max-width: auto;
   }
   .lay {
     font-size: 30px;
