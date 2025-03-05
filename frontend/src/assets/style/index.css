@@ -1,6 +1,7 @@
-body {
+main {
 left: 0;  
 right: 0;
+margin: 0;
   font-family: "lato", serif;
   font-weight: 400;
   font-style: normal;
@@ -483,7 +484,7 @@ color: #462b03;
 
 @media only screen and (max-width: 767px) {
   /* For mobile phones: */
-  body{
+  main{
     overflow-x: hidden;
     max-width: 100%;
   }
