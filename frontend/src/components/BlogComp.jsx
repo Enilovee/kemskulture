@@ -11,7 +11,7 @@ const BlogComp = ({ blogPost }) => {
 
         <div className='product-container-blog'>
         <h2>
-             <Link to={`/blog-post/${blogPost._id}`}className=' text-decoration-none' style={{color:"#462b03",}} >
+             <Link to={`/blog-post/${blogPost._id}`}className=' text-decoration-none mb-4' style={{color:"#462b03",marginBottom:"30px"}} >
                     <strong>{blogPost.title}</strong>
                
             </Link> </h2>
