@@ -39,7 +39,7 @@ const handleLinkClick = (link) => {
   return (
     
     <header>
-        <Navbar style={{ background:"#f1f1c5", color:'#462b03', width:'100%'}} variant='outline-secondary' expand='lg' collapseOnSelect  >
+        <Navbar style={{ background:"ivory", color:'#462b03', width:'100%'}} variant='outline-secondary' expand='lg' collapseOnSelect  >
             <Container className='navMenu'>
                <LinkContainer to ='/'> 
               

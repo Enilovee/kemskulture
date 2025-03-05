@@ -27,13 +27,13 @@ const Footer = () => {
           <p> +234 0810 281 6649</p>
         </div>
         <div className="">
-      <h1  style={{ fontSize: '36px', fontWeight: 'bold' }}> <Link to =' https://www.instagram.com/kemskulture' className='text-decoration-none'><FaInstagramSquare /></Link> <Link to ='https://www.facebook.com/kemskulture' className='text-decoration-none'><FaFacebook /></Link> <Link to ='/' className='text-decoration-none'><FaTiktok /></Link> <Link to ='https://wa.me/2348102816649' className='text-decoration-none'><FaWhatsappSquare /></Link></h1>
+      <h1  style={{ fontSize: '36px', fontWeight: 'bold' }}> <Link to ='https://www.instagram.com/kemskulture' className='text-decoration-none'><FaInstagramSquare /></Link> <Link to ='https://www.facebook.com/kemskulture' className='text-decoration-none'><FaFacebook /></Link> <Link to ='/' className='text-decoration-none'><FaTiktok /></Link> <Link to ='https://wa.me/2348102816649' className='text-decoration-none'><FaWhatsappSquare /></Link></h1>
       </div>
   
   /</div>
   <Row>
   <Col className="text-center py-3">
-    <p>Phinny's Store &copy; {currentYear} </p>
+    <p>kemskulture &copy; {currentYear} </p>
      </Col>
          </Row>
     </footer>

@@ -33,7 +33,7 @@ const HomeScreen = () => {
     <HomeImg />
 
       {
-        <Link to='/products' className='btn btn-light mx-4 mb-4 '>Go Back</Link>
+        <Link to='/' className='btn btn-light mx-4 mb-4 '>Go Back</Link>
       }
       <Button onClick={toggleProductsVisibility} className='mx-4 mb-4' variant='outline-warning'>
         {showProducts  ? 'close' : 'Filter'}

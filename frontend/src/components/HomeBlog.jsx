@@ -22,7 +22,7 @@ const { data: posts, error, isLoading } = useGetTopPostQuery();
         <br />
         <br />
           
-        <h5 style={{width:'95%'}}>{post.shortText}</h5>
+        <h5 style={{width:'85%'}}>{post.shortText}</h5>
       </div>
       ))}</div>
   )

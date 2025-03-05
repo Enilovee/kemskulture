@@ -17,7 +17,7 @@ HomePageScreen = () => {
       <Link to={'/products'} style={{ textDecoration:"none"}}  >
         <div className="homeSect1">
       <Image  src={pic31} className='homeImg1'/>
-      <div className="lay"> Welcome   To   KemsKulture <b /> <h2>Create a vibe that exudes elegance with the sophistication that speaks volumes</h2>         <Button className='text-black border-2 rounded-5 ' variant='outline-secondary'>Shop Now</Button>
+      <div className="lay"> <div style={{marginTop:"40px"}}> Welcome   To   KemsKulture</div> <b /> <h2>Create a vibe that exudes elegance with the sophistication that speaks volumes</h2>         <Button className='text-black border-2 rounded-5 ' variant='outline-secondary'>Shop Now</Button>
  </div>
       </div>
       </Link>
