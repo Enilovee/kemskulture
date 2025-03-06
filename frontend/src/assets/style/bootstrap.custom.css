@@ -203,7 +203,7 @@
 body {
   margin: 0;
   padding: 0;
-  max-width: 96vw;
+  max-width: 97.7vw;
   width: 100%;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
@@ -212,8 +212,7 @@ body {
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
-  background-repeat: repeat-x;
-  background-size: 100vw;
+  background-size: 110vw;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
