@@ -24,7 +24,7 @@ const ForgotPassword = () => {
         <div>
             <h2>Forgot Password</h2>
             <Form onSubmit={handleSubmit}>
-            <Form.Group  controlId='email' className='my-2 w-25'>
+            <Form.Group  controlId='email' className='my-2 w-50'>
                 <Form.Label>Email</Form.Label>
                 <Form.Control
                     type="email"

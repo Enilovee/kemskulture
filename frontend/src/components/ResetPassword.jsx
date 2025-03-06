@@ -61,7 +61,7 @@ import { FaEye, FaEyeSlash } from 'react-icons/fa';
                 </div>
 
             </Form.Group>
-            <Form.Group controlId='confirmNewPassword' className='my-2 w-25' >
+            <Form.Group controlId='confirmNewPassword' className='my-2 w-75 w-md-25' >
                 <Form.Label>Confirm Password</Form.Label>
                 <div className="input-group">
                 <Form.Control
