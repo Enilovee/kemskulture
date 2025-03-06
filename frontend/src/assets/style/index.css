@@ -12,7 +12,8 @@ main {
   width: 100%;
   max-width: 100vw;
   background-color: ivory;
-  background-size: 100vw;  
+  background-size: 110vw;  
+  background-repeat: repeat-x;
   background-position: 100vw;
   background-size: cover;
   font-family: "lato", serif;
