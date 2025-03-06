@@ -104,7 +104,7 @@ const BlogPostEditScreen = () => {
                     ></Form.Control>
                 </Form.Group>
                 <Form.Group controlId='shortText' className='my-2  '>
-                    <Form.Label>Content</Form.Label>
+                    <Form.Label>Short Text</Form.Label>
                     <Form.Control
                        style={{
                         width: '100%',  
