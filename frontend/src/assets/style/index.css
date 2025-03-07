@@ -675,7 +675,7 @@ color: #462b03;
   }
   .product-container-blogDetails{
     max-width: 800px;
-    margin-top: -15px;
+    margin-top: -275px;
     border-radius: 30px;
     margin-bottom: 80px;
   }
@@ -731,6 +731,7 @@ color: #462b03;
     margin-top: -80px;
 
   }
+ 
   .prodImgCont{
     min-width:100vw ;
     min-height: 100vh;
