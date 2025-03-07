@@ -225,7 +225,7 @@ Link{
   display: flex;
   flex-direction: column;
   justify-items: center;
-  align-items: center;
+  align-items: space-between;
   gap: 50px;
 }
 .homeImg1{

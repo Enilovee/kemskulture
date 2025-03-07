@@ -190,6 +190,8 @@
 *::after {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  overflow-wrap: normal;
   box-sizing: border-box;
 }
 
@@ -197,6 +199,7 @@
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
+     overflow-x:hidden ;
   }
 }
 
