@@ -22,7 +22,7 @@ const BlogDetailScreen = () => {
          <Row>
     <Col xs={12} s={5} md={9} className="img-display">
                 
-            <Carousel pause='hover' className=' prodCar1' >
+            <Carousel pause='hover' className=' prodCar11' >
             {post.images.map((image,index)=>(
                  <Carousel.Item key={index} className='prodImgCont-blogDetails'>
                 <Image key={index}  src={image} alt ={`product${index}`}  className='homeImg2-blogDetails'/>

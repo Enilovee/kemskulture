@@ -101,13 +101,15 @@ const ProductScreen = () => {
 
   return (
     <>
-        <Link to="/products" className='btn btn-light my-3' >
-        Go back     
-        </Link>    
+         
          {isLoading ? (<Loader />) : error ? (<Message variant = 'danger'>{error?.data?.message || error?.error}</Message>):
-         (<>
+         (<> 
+          <Link to='/products' className='btn btn-light my-3' >
+        Go back     
+        </Link>
          <Meta title={product.name} />
-        <Row>
+        <Row> 
+            
             <Col xs={12} s={5} md={5} className="img-display">
                 
             <Carousel pause='hover' className=' prodCar1' >

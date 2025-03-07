@@ -675,7 +675,7 @@ color: #462b03;
   }
   .product-container-blogDetails{
     max-width: 800px;
-    margin-top: -275px;
+    margin-top: -250px;
     border-radius: 30px;
     margin-bottom: 80px;
   }
@@ -728,7 +728,14 @@ color: #462b03;
     min-width: 100vw;
     min-height: 100vh;
     margin-left: -20px;
-    margin-top: -80px;
+    margin-top: -40px;
+
+  }
+  .prodCar11{
+    min-width: 100vw;
+    min-height: 100vh;
+    margin-left: -20px;
+    margin-top: -10px;
 
   }
  
