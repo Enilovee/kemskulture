@@ -505,7 +505,7 @@ color: #462b03;
     margin-top: -42px;
     background-color: rgba(64, 82, 88, 0.623);
     width: 100vw;
-    height: 74vh;
+    height: 69vh;
     color: #52300e;
 
   }
@@ -532,9 +532,10 @@ color: #462b03;
   
   }
   .firstSect{
-    min-width: 90vw;
+    max-width: 90vw;
     max-height: 80vh;
     margin-top: 30px;
+    margin-right: 10px;
     margin-bottom: 350px;
   }
   .product-container{
@@ -597,8 +598,8 @@ color: #462b03;
     margin-bottom: 40px;
   }
   .homeImg1{
-    width: 650px;
-    height: 620px;
+    width: 600px;
+    height: 520px;
     margin-bottom: 50px;
     margin-top: 4px;
     object-fit: contain;
