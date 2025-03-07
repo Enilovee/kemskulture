@@ -506,7 +506,7 @@ color: #462b03;
     margin-top: -42px;
     background-color: rgba(64, 82, 88, 0.623);
     width: 100vw;
-    height: 69vh;
+    height: 66vh;
     color: #52300e;
 
   }
@@ -693,12 +693,14 @@ color: #462b03;
   }
   .productImg{
     min-width: 100vw;
-    margin-bottom: 30px;
+    min-height: 100vh;
+    margin-bottom: -80px;
     object-fit: contain;
   }
   
   .detail{
     margin-left:4px;
+    margin-top: -72px;
   }
   .carouselStyle{
     margin-bottom: 16px;
@@ -722,9 +724,16 @@ color: #462b03;
    margin-left: 40px;
 
   }
+  .prodCar1{
+    min-width: 100vw;
+    min-height: 100vh;
+    margin-left: -20px;
+    margin-top: -80px;
+
+  }
   .prodImgCont{
-    max-width:1000px ;
-    max-height:800px ;
+    min-width:100vw ;
+    min-height: 100vh;
   }
   .prodImgCont-blogDetails{
     width:400px ;
@@ -747,7 +756,7 @@ color: #462b03;
     background-size: contain;
   }
   .secondSect{
-    margin-left: -25px;
+    margin-left: -35px;
   }
   .secondSect h1{
     margin-left: 40px;
@@ -777,13 +786,13 @@ color: #462b03;
  }
  .productImg{
   min-width: 100%; 
-  height: 70vh;
-  object-fit: cover;
+  height: 100vh;
+  object-fit: contain;
 }
 .prodImgCont{
-  margin-left: 60px;
+  margin-left: 30px;
   min-width: 100%;
-  min-height: 70%;
+  min-height: 100%;
 }
 .fourthSect{
 display: flex;
@@ -835,6 +844,9 @@ margin-left: -210px;
   align-items: center;
   
 }
+.carousel-size2{
+  margin-top: -60px;
+}
 
 }
 
@@ -852,7 +864,8 @@ justify-items: space-between;
 
 .carousel-size{
   width: 100vw; 
-  height: 80vh;
+  height: 100vh;
+  margin-top: -10px;
   object-fit: contain;
 }
 .image-container {
@@ -915,7 +928,7 @@ table th {
   position: absolute;
   width: auto;
   height: 20vh;
-  left: 0;
+  left: -15px;
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
