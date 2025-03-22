@@ -817,6 +817,15 @@ margin-left: -210px;
   width:1000px;
   height: 700px;
 }
+.blogScreen{
+  display: flex;
+  align-items: center;
+  justify-items: space-between;
+  gap: 40px;
+}
+.homeImg2-blog{
+  margin-left: 0px;
+}
 .homeImg12{
   object-fit: cover;
   width:1000px;
